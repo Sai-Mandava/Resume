@@ -4,87 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandava Sai - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
-        h1, h2 { color: #2c3e50; }
-        .container { max-width: 800px; margin: auto; }
-        .section { margin-bottom: 20px; }
-        ul { padding-left: 20px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        .section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .contact i {
+            margin-right: 10px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #0073e6;
+            color: white;
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Mandava Sai</h1>
-        <p>Kavuluru, Andhra Pradesh | (+91) 7993619983 | <a href="mailto:saimandava.18@gmail.com">saimandava.18@gmail.com</a></p>
+        <header>
+            <h1>Mandava Sai</h1>
+            <p>Kavuluru, Andhra Pradesh | (+91) 7993619983 | <a href="mailto:saimandava.18@gmail.com">saimandava.18@gmail.com</a></p>
+        </header>
         
         <div class="section">
             <h2>Summary</h2>
             <p>Results-driven Application Developer with 2.6 years of experience at IBM specializing in Java development. Skilled in designing, developing, and maintaining robust applications while integrating DevOps practices and testing methodologies.</p>
         </div>
         
-        <div class="section">
+        <div class="section skills">
             <h2>Technical Skills</h2>
             <ul>
-                <li><strong>Programming Languages:</strong> Java</li>
-                <li><strong>Tools & Technologies:</strong> Jenkins, Kubernetes, Spring Boot, Microservices, Robot Framework, JUnit</li>
-                <li><strong>Version Control:</strong> Git/GitHub</li>
-                <li><strong>Testing Skills:</strong> Manual Testing, Automation Testing, Test Case Design, Defect Tracking</li>
-                <li><strong>DevOps Practices:</strong> CI/CD Pipelines, Monitoring</li>
-                <li><strong>Cloud Platforms:</strong> Azure</li>
-                <li><strong>IDEs:</strong> IntelliJ IDEA, Eclipse, VS Code, Spring Tool Suite</li>
-                <li><strong>Soft Skills:</strong> Problem-Solving, Collaboration, Communication, Agile Methodologies - Jira</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Microservices</li>
+                <li>Jenkins</li>
+                <li>Kubernetes</li>
+                <li>Robot Framework</li>
+                <li>Git/GitHub</li>
+                <li>Azure</li>
             </ul>
         </div>
         
         <div class="section">
             <h2>Professional Experience</h2>
-            <h3>Application Developer - IBM, India (May 2022–Present)</h3>
+            <h3>IBM, India - Application Developer (May 2022 - Present)</h3>
             <ul>
-                <li>Trained in microservices.</li>
-                <li>Exposure in the development of software products from coding, testing, debugging, documentation, and implementation.</li>
-                <li>Quick learning and application of new technologies in business solutions.</li>
-                <li>Received Manager Appraisal Award for the Quarter (January - March).</li>
+                <li>Worked on microservices development and API enhancements.</li>
+                <li>Implemented CI/CD pipelines and DevOps practices.</li>
+                <li>Automated testing with Robot Framework, improving test coverage.</li>
             </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Project Overview</h2>
+            
             <h3>AT&T - Bangalore, India (Dec 2023 - Present)</h3>
-            <p><strong>Description:</strong> AT&T is a multinational telecommunications company providing a range of mobile, broadband, and technology solutions.</p>
-            <p><strong>Contributions:</strong></p>
             <ul>
-                <li>Updated API functionality and wrote JUnit test cases.</li>
-                <li>Worked on services like AtsRuleEngine, AtsCorrelationEngine, and AtsTroubleTicketEventProcessor.</li>
-                <li>Implemented BDD and TDD methodologies.</li>
-                <li>Automated testing using the Robot Framework.</li>
-                <li>Enhanced CI/CD pipelines and migrated services to Azure Repository.</li>
-                <li>Improved security by updating Docker files and CD pipelines.</li>
+                <li>Developed and optimized API functionality.</li>
+                <li>Enhanced security and deployment processes.</li>
             </ul>
             
             <h3>MetLife - Bangalore, India (Aug 2022 - Aug 2023)</h3>
-            <p><strong>Description:</strong> Developed an insurance platform for policy management and claims processing.</p>
-            <p><strong>Contributions:</strong></p>
             <ul>
-                <li>Developed and enhanced microservices and APIs.</li>
-                <li>Designed and implemented RESTful APIs.</li>
-                <li>Resolved security vulnerabilities in key services.</li>
-                <li>Integrated MongoDB with command service API.</li>
-                <li>Performed unit testing, integration testing, and defect analysis.</li>
+                <li>Designed and implemented RESTful APIs for seamless data exchange.</li>
+                <li>Contributed to multiple squads, delivering features within deadlines.</li>
             </ul>
         </div>
         
         <div class="section">
             <h2>Education</h2>
-            <ul>
-                <li><strong>Laki Reddy Bali Reddy College of Engineering, Mylavaram</strong> - B.Tech (July 2018 - May 2022) | Percentage: 92%</li>
-                <li><strong>Sri Chaitanya Junior College, Vijayawada</strong> - M.P.C (June 2016 - May 2018) | Percentage: 97%</li>
-            </ul>
+            <p><strong>Laki Reddy Bali Reddy College of Engineering</strong>, B. Tech (2018 - 2022) - 92%</p>
+            <p><strong>Sri Chaitanya Junior College</strong>, M.P.C (2016 - 2018) - 97%</p>
         </div>
         
-        <div class="section">
-            <h2>Declaration</h2>
-            <p>I hereby declare that the information provided in this resume is true and accurate to the best of my knowledge and belief.</p>
-            <p><strong>Mandava Sai</strong></p>
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p><i class="fa fa-envelope"></i> <a href="mailto:saimandava.18@gmail.com">saimandava.18@gmail.com</a></p>
+            <p><i class="fa fa-linkedin"></i> <a href="#">LinkedIn Profile</a></p>
+            <p><i class="fa fa-github"></i> <a href="#">GitHub Profile</a></p>
         </div>
     </div>
 </body>
